@@ -16,6 +16,7 @@
 
 #include <sys/types.h>
 
+#include <chrono>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -63,4 +64,5 @@ struct FrameHash {
     return hash;
   }
 };
+
 }  // namespace pyflame
