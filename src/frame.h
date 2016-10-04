@@ -65,4 +65,8 @@ struct FrameHash {
   }
 };
 
+struct FrameTS {
+  std::chrono::system_clock::time_point ts;
+  frames_t frames;
+};
 }  // namespace pyflame
