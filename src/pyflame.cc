@@ -45,7 +45,6 @@ const char usage_str[] =
      "  -x, --exclude-idle   Exclude idle time from statistics\n"
      "  -t, --timestamp      Include timestamps for each stacktrace\n");
 
-
 /* Prints all stack traces */
 int PrintFrames(const std::vector<FrameTS> &call_stacks, size_t idle) {
   if (idle) {
